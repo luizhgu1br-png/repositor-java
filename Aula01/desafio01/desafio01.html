@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/Favicon.jpg">
+    <title>DEV-Desenvolvimento de sistemas </title>
+    <meta name="description" content="">
+    <meta name="keywords" content=>
+    <meta name="author" content="Luiz Eduardo">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>DESAFIO 1</h1>
+    <hr>
+    <script>
+    window.alert("Desafio 1");
+    let num = window.prompt("qual é o número");
+    let num2 = window.prompt("qual o número 2?");
+    num = parseFloat(num)
+    num2 = parseFloat(num2)
+    let resultado = 0
+    let operação = window.prompt("qual é a operação que quer fazer? + para adição e - para subtração")
+    if (operação=="+"){
+        resultado = num + num2
+    }
+    else{
+        resultado = num - num2
+    }
+    alert(resultado)
+    </script>
+</body>
+</html>
